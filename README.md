@@ -14,7 +14,7 @@ I am aware that my plotting method is not :thumbsup:. Feel free to modify the co
 
 ## Install
 ```bash
-pip install ultralytics
+pip install ultralytics==8.1.8
 git clone https://github.com/developer0hye/Explainable-YOLOv8.git
 cd Explainable-YOLOv8
 ```
