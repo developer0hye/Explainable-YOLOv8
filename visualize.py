@@ -54,7 +54,7 @@ argparser.add_argument('--model', type=str, default='yolov8m.pt', help='model.pt
 argparser.add_argument('--source', type=str, default='./zidane.jpg', help='source')  # Refer to https://docs.ultralytics.com/modes/predict/#inference-sources
 argparser.add_argument('--verbose', action='store_true', help='verbose')
 argparser.add_argument('--class_id', type=int, default=0, help='class id to visualize')
-argparser.add_argument('--thr_visualize_conf', type=float, default=0.5, help='threshold for visualizing xy')
+argparser.add_argument('--thr_visualize_conf', type=float, default=0.5, help='threshold for visualizing anchor xy')
 argparser.add_argument('--thr_visualize_ltrb', type=float, default=0.5, help='threshold for visualizing ltrb')
 args = argparser.parse_args()
 
