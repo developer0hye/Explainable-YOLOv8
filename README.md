@@ -1,5 +1,5 @@
 # Explainable-YOLOv8
-Visualize the low-level output of YOLOv8 to analyze and understand where our model focuses
+Visualize the low-level outputs of YOLOv8 to analyze and understand the areas where our model focuses. Specifically, illustrate which anchor points are activated to predict bounding boxes.
 
 ![image](https://github.com/developer0hye/Explainable-YOLOv8/assets/35001605/e464ac44-c92b-4c06-abe0-557c0d773ef8)
 
