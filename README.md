@@ -24,7 +24,7 @@ cd Explainable-YOLOv8
 python visualize.py --model {your model}.pt --source {your data}
 ```
 
-Run the below command to generate the image on this README file
+Execute the command below to generate the image as shown in this README file
 
 ```
 cd Explainable-YOLOv8
