@@ -116,5 +116,6 @@ for result in results:
 
         # draw anchor xy
         cv2.circle(result.orig_img, (int(x), int(y)), 4, (0, int(255 * preds_cat_conf_score[i][args.class_id]), 0), -1)
-        cv2.imwrite(f'result_{pathlib.Path(result.path).stem}_class_id{args.class_id:03d}_class_name-{names[args.class_id]}.jpg', result.orig_img)
+    cv2.imwrite(f'result_{pathlib.Path(result.path).stem}_classid-{args.class_id:03d}_classname-{names[args.class_id]}.jpg', result.orig_img)
+
 
