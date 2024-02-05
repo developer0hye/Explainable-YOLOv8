@@ -1,8 +1,11 @@
 # Explainable-YOLOv8
 Visualize the low-level outputs of YOLOv8 to analyze and understand the areas where our model focuses. Specifically, illustrate which anchor points are activated to predict bounding boxes.
 
+## 🧍
 ![image](https://github.com/developer0hye/Explainable-YOLOv8/assets/35001605/e464ac44-c92b-4c06-abe0-557c0d773ef8)
+## 👔
 ![image](https://github.com/developer0hye/Explainable-YOLOv8/assets/35001605/efe440f3-066b-43b3-b2fc-de7b4dbb1fc3)
+## 🚌
 ![image](https://github.com/developer0hye/Explainable-YOLOv8/assets/35001605/bc3ff9be-503a-4825-b681-f4f9e963e843)
 
 
